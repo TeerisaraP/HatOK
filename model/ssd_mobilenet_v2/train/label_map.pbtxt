@@ -1,0 +1,24 @@
+item {
+  id: 1
+  name: 'blue helmet'
+}
+
+item {
+  id: 2
+  name: 'head'
+}
+
+item {
+  id: 3
+  name: 'red helmet'
+}
+
+item {
+  id: 4
+  name: 'white helmet'
+}
+
+item {
+  id: 5
+  name: 'yellow helmet'
+}
