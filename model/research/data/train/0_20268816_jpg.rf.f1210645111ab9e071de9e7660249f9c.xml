@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>0_20268816_jpg.rf.f1210645111ab9e071de9e7660249f9c.jpg</filename>
+	<path>0_20268816_jpg.rf.f1210645111ab9e071de9e7660249f9c.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>blue helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>46</xmin>
+			<xmax>641</xmax>
+			<ymin>11</ymin>
+			<ymax>601</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>hard_hat_workers3724_png_jpg.rf.0348c7029a17e90410a999ed446d1b43.jpg</filename>
+	<path>hard_hat_workers3724_png_jpg.rf.0348c7029a17e90410a999ed446d1b43.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>red helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>126</xmin>
+			<xmax>148</xmax>
+			<ymin>263</ymin>
+			<ymax>283</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>192</xmin>
+			<xmax>215</xmax>
+			<ymin>203</ymin>
+			<ymax>219</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>218</xmin>
+			<xmax>247</xmax>
+			<ymin>325</ymin>
+			<ymax>350</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>Is-Elbiseleri-Is-Ayakkabilari-Is_jpg.rf.bebf7740483accfb6ebbf0d76d824c0f.jpg</filename>
+	<path>Is-Elbiseleri-Is-Ayakkabilari-Is_jpg.rf.bebf7740483accfb6ebbf0d76d824c0f.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>241</xmin>
+			<xmax>579</xmax>
+			<ymin>19</ymin>
+			<ymax>171</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>336</xmin>
+			<xmax>639</xmax>
+			<ymin>267</ymin>
+			<ymax>399</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>white helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>300</xmin>
+			<xmax>598</xmax>
+			<ymin>510</ymin>
+			<ymax>641</ymax>
+		</bndbox>
+	</object>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>face_20240120161815_jpg.rf.1175eed57ef5ead6e7803ddb08fbbcd8.jpg</filename>
+	<path>face_20240120161815_jpg.rf.1175eed57ef5ead6e7803ddb08fbbcd8.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>60</xmin>
+			<xmax>569</xmax>
+			<ymin>40</ymin>
+			<ymax>577</ymax>
+		</bndbox>
+	</object>
+</annotation>

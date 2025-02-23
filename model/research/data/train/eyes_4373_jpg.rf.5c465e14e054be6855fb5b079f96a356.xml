@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>eyes_4373_jpg.rf.5c465e14e054be6855fb5b079f96a356.jpg</filename>
+	<path>eyes_4373_jpg.rf.5c465e14e054be6855fb5b079f96a356.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>40</xmin>
+			<xmax>641</xmax>
+			<ymin>1</ymin>
+			<ymax>627</ymax>
+		</bndbox>
+	</object>
+</annotation>

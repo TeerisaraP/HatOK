@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>youtube-175_jpg.rf.a156af6df8ead35b15e3dbc923eeb78a.jpg</filename>
+	<path>youtube-175_jpg.rf.a156af6df8ead35b15e3dbc923eeb78a.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>259</xmin>
+			<xmax>474</xmax>
+			<ymin>1</ymin>
+			<ymax>196</ymax>
+		</bndbox>
+	</object>
+</annotation>

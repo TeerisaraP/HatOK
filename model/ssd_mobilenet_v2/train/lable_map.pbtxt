@@ -1,0 +1,8 @@
+label_map = {
+    'blue helmet': 1,
+    'head': 2,
+    'red helmet': 3,
+    'white helmet': 4,
+    'yellow helmet': 5,
+    
+}

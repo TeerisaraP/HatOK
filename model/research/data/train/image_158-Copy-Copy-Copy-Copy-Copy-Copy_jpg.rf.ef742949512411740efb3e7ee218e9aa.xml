@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>image_158-Copy-Copy-Copy-Copy-Copy-Copy_jpg.rf.ef742949512411740efb3e7ee218e9aa.jpg</filename>
+	<path>image_158-Copy-Copy-Copy-Copy-Copy-Copy_jpg.rf.ef742949512411740efb3e7ee218e9aa.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>266</xmin>
+			<xmax>334</xmax>
+			<ymin>124</ymin>
+			<ymax>176</ymax>
+		</bndbox>
+	</object>
+</annotation>

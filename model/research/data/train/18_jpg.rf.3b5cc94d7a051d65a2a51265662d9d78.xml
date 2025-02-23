@@ -1,0 +1,53 @@
+<annotation>
+	<folder></folder>
+	<filename>18_jpg.rf.3b5cc94d7a051d65a2a51265662d9d78.jpg</filename>
+	<path>18_jpg.rf.3b5cc94d7a051d65a2a51265662d9d78.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>60</xmin>
+			<xmax>174</xmax>
+			<ymin>1</ymin>
+			<ymax>123</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>429</xmin>
+			<xmax>559</xmax>
+			<ymin>16</ymin>
+			<ymax>193</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>red helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>288</xmin>
+			<xmax>400</xmax>
+			<ymin>63</ymin>
+			<ymax>189</ymax>
+		</bndbox>
+	</object>
+</annotation>

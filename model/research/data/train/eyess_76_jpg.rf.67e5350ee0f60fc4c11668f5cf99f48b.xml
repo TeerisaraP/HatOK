@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>eyess_76_jpg.rf.67e5350ee0f60fc4c11668f5cf99f48b.jpg</filename>
+	<path>eyess_76_jpg.rf.67e5350ee0f60fc4c11668f5cf99f48b.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>52</xmin>
+			<xmax>600</xmax>
+			<ymin>48</ymin>
+			<ymax>558</ymax>
+		</bndbox>
+	</object>
+</annotation>

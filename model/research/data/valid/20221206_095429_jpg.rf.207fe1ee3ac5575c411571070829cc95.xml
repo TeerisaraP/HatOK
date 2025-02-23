@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>20221206_095429_jpg.rf.207fe1ee3ac5575c411571070829cc95.jpg</filename>
+	<path>20221206_095429_jpg.rf.207fe1ee3ac5575c411571070829cc95.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>white helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>62</xmin>
+			<xmax>257</xmax>
+			<ymin>182</ymin>
+			<ymax>500</ymax>
+		</bndbox>
+	</object>
+</annotation>

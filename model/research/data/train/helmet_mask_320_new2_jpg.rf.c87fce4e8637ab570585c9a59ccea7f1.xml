@@ -1,0 +1,14 @@
+<annotation>
+	<folder></folder>
+	<filename>helmet_mask_320_new2_jpg.rf.c87fce4e8637ab570585c9a59ccea7f1.jpg</filename>
+	<path>helmet_mask_320_new2_jpg.rf.c87fce4e8637ab570585c9a59ccea7f1.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>

@@ -1,0 +1,27 @@
+<annotation>
+	<folder></folder>
+	<filename>hard_hat_workers4063_png_jpg.rf.2d66a515c682c9d4067e726c65f44cdc.jpg</filename>
+	<path>hard_hat_workers4063_png_jpg.rf.2d66a515c682c9d4067e726c65f44cdc.jpg</path>
+	<source>
+		<database>roboflow.com</database>
+	</source>
+	<size>
+		<width>640</width>
+		<height>640</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>yellow helmet</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<occluded>0</occluded>
+		<bndbox>
+			<xmin>464</xmin>
+			<xmax>614</xmax>
+			<ymin>171</ymin>
+			<ymax>295</ymax>
+		</bndbox>
+	</object>
+</annotation>
