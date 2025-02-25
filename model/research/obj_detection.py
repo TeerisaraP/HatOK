@@ -21,7 +21,7 @@ def load_image_into_numpy_array(image_path):
     return image_rgb
 
 # Path to the test image
-IMAGE_PATH = r'D:\Preme\github\HatOK\model\research\data\test\20221206_095153_jpg.rf.917e7f7d5b55df9d85d4c60b5f9fd904.jpg'
+IMAGE_PATH = r'D:\Preme\test helmet\test helmet4.png'
 image_np = load_image_into_numpy_array(IMAGE_PATH)
 
 # Run inference
