@@ -29,7 +29,7 @@ parsed_dataset = raw_dataset.map(parse_tfrecord_fn)
 
 # Load the saved model
 detect_fn = tf.saved_model.load(model_dir)
-
+#
 # Initialize lists for true and predicted labels
 true_labels = []
 predicted_labels = []
@@ -37,6 +37,8 @@ predicted_scores = []
 
 # Run inference on the validation dataset
 confidence_threshold = 0.5
+num_classes = 5  # Assuming there are 5 classes
+
 for image, labels in parsed_dataset:
     input_tensor = tf.expand_dims(image, 0)
     detections = detect_fn(input_tensor)
@@ -44,15 +46,24 @@ for image, labels in parsed_dataset:
     # Get the highest scoring detection
     classes = detections["detection_classes"][0].numpy().astype(np.int32)
     scores = detections["detection_scores"][0].numpy()
-
+    
+    # Initialize an array for the scores of each class
+    class_scores = np.zeros(num_classes)
+    
+    # Assign scores to the corresponding class indices
+    for i in range(min(len(classes), num_classes)):
+        class_index = classes[i] -1  # Assuming class indices are 1-based
+        if class_index < num_classes:
+            class_scores[class_index] = scores[i]
+    
+    predicted_scores.append(class_scores)
+    
     # Use confidence threshold to filter predictions
     if scores[0] >= confidence_threshold:
         predicted_labels.append(classes[0])  # Predicted class
-        predicted_scores.append(scores[0])  # Predicted confidence
     else:
         predicted_labels.append(0)  # No detection
-        predicted_scores.append(0)  # No confidence
-
+    #
     # Use the first ground truth label (assuming one object per image)
     true_labels.append(labels.numpy()[0] if len(labels.numpy()) > 0 else 0)
 
@@ -70,7 +81,8 @@ f1 = f1_score(true_labels, predicted_labels, average='weighted', zero_division=0
 # Compute mAP (Mean Average Precision)
 try:
     map_score = average_precision_score(true_labels, predicted_scores, average='macro')
-except ValueError:
+except ValueError as e:
+    print(f"Error calculating mAP: {e}")
     map_score = 0  # Handle case where AP calculation fails due to class imbalance
 
 print(f"Accuracy: {accuracy:.2%}")
