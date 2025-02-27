@@ -21,7 +21,7 @@ def load_image_into_numpy_array(image_path):
     return image_rgb
 
 # Path to the test image
-IMAGE_PATH = r'D:\Preme\test helmet\test helmet4.png'
+IMAGE_PATH = r'D:\Preme\test helmet\test helmet2.png'
 image_np = load_image_into_numpy_array(IMAGE_PATH)
 
 # Run inference
@@ -55,7 +55,7 @@ image_height, image_width, _ = image_np.shape
 # Iterate through detection boxes, classes, and scores
 for i in range(num_detections):
     # Only consider detections above the threshold (e.g., 0.5)
-    if detections['detection_scores'][i] >= 0.5:
+    if detections['detection_scores'][i] >= 0.65:
         # Get normalized coordinates
         ymin, xmin, ymax, xmax = detections['detection_boxes'][i]
 
